@@ -1,0 +1,5 @@
+[myservers]
+server1 ansible_host=192.168.10.10 ansible_ssh_user=ansible ansible_ssh_private_key_file=ansible.key http_host=mydomain.local http_conf=mydomain.local.conf
+
+[myservers:vars]
+http_port=80
